@@ -14,6 +14,32 @@
     <link rel="stylesheet" href="assets/css/plugins/slick.css" />
     <link rel="stylesheet" href="assets/css/plugins/animate.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        .pos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the height as needed */
+        }
+
+        .gprs_image {
+            position: relative;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -52,7 +78,7 @@
                     <div class="cs-main_header_right">
                         <div class="cs-toolbox">
                             <span class="cs-link cs-modal_btn" data-modal="login">Login</span>
-                            <span class="cs-btn cs-color1 cs-modal_btn" data-modal="register"><span>GET A SOUND BOX</span></span>
+                            <span class="cs-btn cs-color1 cs-modal_btn" data-modal="register" style="background-color:#F26B40;"><span>GET A SOUND BOX</span></span>
                         </div>
                     </div>
                 </div>
@@ -60,19 +86,26 @@
         </div>
     </header>
     <div class="banner" id="home">
-        <img src="assets/img/logo.png" class="logo" alt="Soundbox 3in1">
-        <h1 style="font-size: 66px;">The Sound of your <br> <span style="color: orange;">Growing Business</span></h1>
+        <!-- <img src="assets/img/logo.png" class="logo" alt="Soundbox 3in1"> -->
+        <h1 style="font-size: 66px;">The Sound of your <br> <span style="color: #F26B40;">Growing Business</span></h1>
         <div>Trusted by 70 Lakh+ Merchants</div>
         
-        <img src="https://business.paytm.com/s3assets/images/soundbox/banner-pwe1891.png?version=1702915646" alt="Sound Box">
+        <img src="/assets/img/hero-banner.jpg" alt="Sound Box">
     </div>
+
+    
+<div class="col-md-6">
+    <figure class="gprs_image">
+        <img src="images/android (1).png" alt="">
+    </figure>
+</div>
     <div id="">
-        <div class="cs-height_80 cs-height_lg_80"></div>
+      
         <section class="cs-hero cs-style1 cs-bg" data-src="assets/img/hero_bg.svg">
             <div class="container">
                 <div class="cs-hero_img">
                     <div class="cs-hero_img_bg cs-bg" data-src="assets/img/hero_img_bg.png"></div>
-                    <img src="assets/img/hero_img.png" alt="Hero Image" class="wow fadeInRight" data-wow-duration="1s"
+                    <img src="assets/img/method_sec_banner.webp" alt="Hero fdfImage" class="wow fadeInRight" data-wow-duration="1s"
                         data-wow-delay="0.4s" />
                 </div>
                 <div class="cs-hero_text">
@@ -194,13 +227,11 @@
     <section id="about" class="cs-gradient_bg_1">
         <div class="cs-height_100 cs-height_lg_70"></div>
         <div class="container">
-            <div class="row align-items-center flex-column-reverse-lg">
-                <div class="col-xl-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <div class="cs-left_full_width cs-space110">
-                        <div class="cs-left_sided_img">
-                            <img src="assets/img/about_img_1.png" alt="About" />
-                        </div>
-                    </div>
+            <div class="row align-items-center flex-column-reverse-lg" style="display: flex;">
+                <div class="pos">
+                    <figure class="gprs_image">
+                        <img src="https://andswipe.com/images/android%20(1).png" alt="">
+                    </figure>
                 </div>
                 <div class="col-xl-6">
                     <div class="cs-height_0 cs-height_lg_40"></div>
@@ -1939,6 +1970,22 @@
     <script src="assets/js/plugins/jquery.counter.min.js"></script>
     <script src="assets/js/plugins/wow.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.cs-slider_container', {
+            autoplay: false, // Set to true if you want the slider to autoplay
+            loop: true,
+            speed: 600,
+            slidesPerView: 'auto',
+            spaceBetween: 24, // Adjust the space between slides as needed
+            pagination: {
+                el: '.cs-pagination',
+                clickable: true,
+            },
+        });
+    });
+</script>
 </body>
 
 
