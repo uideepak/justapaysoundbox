@@ -117,7 +117,11 @@ blockquote {
   text-align: center;
   margin-top: 200px;
 }
-.banner img {
+.banner .logo {
+  max-width: 10%;
+  height: auto;
+}
+.banner img{
   max-width: 100%;
   height: auto;
 }
