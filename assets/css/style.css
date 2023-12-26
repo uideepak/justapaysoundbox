@@ -3524,16 +3524,29 @@ li.menu-item-has-children
   margin-bottom: 10px;
 }
 
-.cs-iconbox.cs-style1:hover .cs-iconbox_icon {
-  -webkit-transform: scale(0.94);
-          transform: scale(0.94);
+/* .cs-iconbox.cs-style1:hover .cs-iconbox_icon {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .cs-iconbox.cs-style1:hover .cs-iconbox_icon::after {
   -webkit-animation: sonarEffect 1s ease-out 75ms;
           animation: sonarEffect 1s ease-out 75ms;
+} */
+.cs-iconbox.cs-style1:hover {
+  border: 2px solid whitesmoke; /* Replace #yourBorderColor with your desired color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: for additional shadow effect */
 }
 
+.cs-iconbox.cs-style1:hover .cs-iconbox_icon {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.cs-iconbox.cs-style1:hover .cs-iconbox_icon::after {
+  -webkit-animation: sonarEffect 1s ease-out 75ms;
+  animation: sonarEffect 1s ease-out 75ms;
+}
 .cs-iconbox.cs-style1:hover .cs-iconbox_number {
   opacity: 0.6;
 }
