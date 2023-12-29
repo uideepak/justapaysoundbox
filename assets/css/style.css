@@ -1207,7 +1207,7 @@ hr {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #F26B40;
+  background-color: #69CBE4;
   border-radius: 10px;
   padding: 85px 0;
   position: relative;
@@ -3483,7 +3483,7 @@ li.menu-item-has-children
       -ms-flex: none;
           flex: none;
   border-radius: 50%;
-  background-color: #F26B40;
+  background-color:#69CBE4;
   margin-bottom: 28px;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
@@ -3791,7 +3791,7 @@ li.menu-item-has-children
 }
 
 .cs-pricing_table.cs-style1 .cs-pricing_feature li {
-  padding-left: 28px;
+  /* padding-left: 28px; */
   position: relative;
 }
 
@@ -3990,4 +3990,9 @@ li.menu-item-has-children
 
 .footer__info-wrapper-11 {
   padding: 20px 80px;
+}
+
+
+.cs-main_header {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
