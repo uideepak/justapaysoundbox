@@ -163,7 +163,7 @@ button {
 a:hover,
 .cs-link:hover {
   text-decoration: none;
-  color: #6990FF;
+  color: #F26B40;
 }
 
 table {
@@ -685,7 +685,7 @@ hr {
 
 .cs-accent_color,
 .cs-accent_color_hover:hover {
-  color: #6990FF;
+  color: #F26B40;
 }
 
 .cs-white_bg {
@@ -698,7 +698,7 @@ hr {
 
 .cs-accent_bg,
 .cs-accent_bg_hover:hover {
-  background-color: #6990FF;
+  background-color: #F26B40;
 }
 
 .cs-primary_bg,
@@ -756,7 +756,7 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #6990FF;
+  background-color: #F26B40;
   color: #fff;
   border: none;
   border-radius: 7px;
@@ -793,7 +793,7 @@ hr {
 }
 
 .cs-btn:before {
-  border: 1px solid #6990FF;
+  border: 1px solid #F26B40;
   z-index: 3;
 }
 
@@ -885,8 +885,8 @@ hr {
 
 .cs-accent_btn {
   color: #fff;
-  background-color: #6990FF;
-  border-color: #6990FF;
+  background-color: #F26B40;
+  border-color: #F26B40;
 }
 
 .cs-accent_btn:hover {
@@ -931,8 +931,8 @@ hr {
 
 .cs-primary_btn:hover {
   color: #fff;
-  background-color: #6990FF;
-  border-color: #6990FF;
+  background-color: #F26B40;
+  border-color: #F26B40;
 }
 
 .cs-primary_btn:hover::after {
@@ -1026,7 +1026,7 @@ hr {
 }
 
 .cs-form_field:focus {
-  border-color: #6990FF;
+  border-color: #F26B40;
 }
 
 .cs-right_full_width {
@@ -1046,7 +1046,7 @@ hr {
 }
 
 .cs-accordian_title span {
-  color: #6990FF;
+  color: #F26B40;
 }
 
 .cs-accordian_head {
@@ -1064,7 +1064,7 @@ hr {
   top: 18px;
   right: 20px;
   border-radius: 50%;
-  color: #6990FF;
+  color: #F26B40;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1207,7 +1207,7 @@ hr {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #6990FF;
+  background-color: #F26B40;
   border-radius: 10px;
   padding: 85px 0;
   position: relative;
@@ -1303,7 +1303,7 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #6990FF;
+  color: #F26B40;
   cursor: pointer;
 }
 
@@ -1367,8 +1367,8 @@ hr {
 }
 
 .cs-check input:checked + label::before {
-  background-color: #6990FF;
-  border-color: #6990FF;
+  background-color: #F26B40;
+  border-color: #F26B40;
 }
 
 .cs-check input:checked + label::after {
@@ -1670,7 +1670,7 @@ hr {
 #author:focus,
 #email:focus {
   outline: none;
-  border-color: #6990FF;
+  border-color: #F26B40;
 }
 
 #comment {
@@ -1831,7 +1831,7 @@ hr {
 }
 
 .comment-list .fn a:hover {
-  color: #6990FF;
+  color: #F26B40;
 }
 
 .comment-list .comment-meta a:hover {
@@ -1845,7 +1845,7 @@ hr {
 
 .comment-list .reply a {
   font-weight: 500;
-  color: #6990FF;
+  color: #F26B40;
   display: inline-block;
   position: absolute;
   top: 5px;
@@ -1859,8 +1859,8 @@ hr {
 
 .comment-list .reply a:hover {
   color: #fff;
-  background-color: #6990FF;
-  border-color: #6990FF;
+  background-color: #F26B40;
+  border-color: #F26B40;
 }
 
 .comment-list .children .comment-body {
@@ -1882,7 +1882,7 @@ hr {
 
 #commentform p.logged-in-as a:hover {
   text-decoration: underline;
-  color: #6990FF;
+  color: #F26B40;
 }
 
 .comment-reply-title small {
@@ -2708,7 +2708,7 @@ hr {
     background-color: #fff;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
             box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
-    border-top: 3px solid #6990FF;
+    border-top: 3px solid #F26B40;
     padding: 10px 0;
     z-index: 100;
     opacity: 0;
@@ -3056,8 +3056,8 @@ li.menu-item-has-children
 7. Footer
 ----------------------------------------------------------------*/
 .cs-footer {
-  background-color: #F26B40;
-  color: #D9D9D9;
+  background-color:#F26B40;
+  color: #FFFF;
 }
 
 .cs-footer .menu {
@@ -3483,7 +3483,7 @@ li.menu-item-has-children
       -ms-flex: none;
           flex: none;
   border-radius: 50%;
-  background-color: #6990FF;
+  background-color: #F26B40;
   margin-bottom: 28px;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
@@ -3714,7 +3714,7 @@ li.menu-item-has-children
 }
 
 .cs-post.cs-style1 .cs-post_title:hover {
-  color: #6990FF;
+  color: #F26B40;
 }
 
 .cs-post.cs-style1 .cs-text_btn svg {
@@ -3735,6 +3735,7 @@ li.menu-item-has-children
 .cs-pricing_table.cs-style1:hover {
   -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
+          transform: scale(1.1);
 }
 
 .cs-pricing_table.cs-style1 .cs-pricing_head {
@@ -3883,8 +3884,8 @@ li.menu-item-has-children
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  border: 1px solid #6990FF;
-  color: #6990FF;
+  border: 1px solid #F26B40;
+  color: #F26B40;
   background-color: #fff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -3900,7 +3901,7 @@ li.menu-item-has-children
 }
 
 .cs-testimonial.cs-style1:hover .cs-quote {
-  background-color: #6990FF;
+  background-color: #F26B40;
   color: #fff;
 }
 
@@ -3984,4 +3985,9 @@ li.menu-item-has-children
 .testimonial-slide span {
   font-size: 0.9em;
   color: #666;
+}
+
+
+.footer__info-wrapper-11 {
+  padding: 20px 80px;
 }
