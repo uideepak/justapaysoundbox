@@ -6,97 +6,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="ThemeMarch" />
     <link rel="icon" href="assets/img/favicon.png" />
     <title>Justapay|Sound Box</title>
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/plugins/slick.css" />
     <link rel="stylesheet" href="assets/css/plugins/animate.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-        .pos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 50%;
-            /* Set the height as needed */
-        }
-
-        .gprs_image {
-            position: relative;
-            animation: bounce 2s infinite;
-        }
-
-        @keyframes bounce {
-
-            0%,
-            20%,
-            50%,
-            80%,
-            100% {
-                transform: translateY(0);
-            }
-
-            40% {
-                transform: translateY(-20px);
-            }
-
-            60% {
-                transform: translateY(-10px);
-            }
-        }
-   
-
-
-        .custom-slider {
-            overflow: hidden;
-            max-width: 600px;
-            /* Adjust as needed */
-            margin: auto;
-        }
-
-        .slider-track {
-            display: flex;
-            transition: transform 0.3s ease;
-        }
-
-        .testimonial-slide {
-            flex: 0 0 50%;
-            /* Each slide takes up 50% of the container */
-            max-width: 50%;
-            box-sizing: border-box;
-            padding: 20px;
-            text-align: center;
-        }
-
-      
-        .testimonial-slide p {
-            font-style: italic;
-        }
-
-        .testimonial-slide h4 {
-            margin-top: 15px;
-            font-weight: bold;
-        }
-
-        .testimonial-slide span {
-            font-size: 0.9em;
-            color: #666;
-        }
-
-    </style>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -111,7 +33,7 @@
                 <div class="cs-main_header_in">
                     <div class="cs-main_header_left">
                         <a class="cs-site_branding cs-accent_color" href="index-2.html">
-                            <img src="assets/img/logo.png" alt="Logo" />
+                            <img src="assets/img/logo.png" alt="Logo"/>
                         </a>
                     </div>
                     <div class="cs-main_header_center">
@@ -144,15 +66,63 @@
         </div>
     </header>
 
+        <div class="container">
+          <a class="navbar-brand" href="#"> 
+            <img src="assets/img/logo.png" alt="Logo"  width="200"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex justify-content-center">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feature
+                      </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing
+                      </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact
+
+                      </a>
+                      </li>
+                    
+                     
+
+                  </ul>
+                 
+            </div>
+            
+          </div>
+         
+
+        </div>
+      </nav> 
+
     <div class="banner" id="home">
-        <!-- <img src="assets/img/logo.png" class="logo" alt="Soundbox 3in1"> -->
         <h1 style="font-size: 66px">
             The Sound of your <br />
             <span style="color: #f26b40">Growing Business</span>
         </h1>
         <div>Trusted by 70 Lakh+ Merchants</div>
 
-        <img src="/assets/img/hero-banner.jpg" alt="Sound Box" />
+        <img src="/assets/img/herosection.png" alt="Sound Box" />
     </div>
 
     <div class="col-md-6">
@@ -165,7 +135,7 @@
             <div class="container">
                 <div class="cs-hero_img">
                     <div class="cs-hero_img_bg cs-bg" data-src="assets/img/hero_img_bg.png"></div>
-                    <img src="assets/img/method_sec_banner.webp" alt="Hero fdfImage" class="wow fadeInRight"
+                    <img src="assets/img/shop.png" alt="Hero fdfImage" class="wow fadeInRight"
                         data-wow-duration="1s" data-wow-delay="0.4s" />
                 </div>
                 <div class="cs-hero_text">
@@ -218,7 +188,7 @@
                     <div class="cs-height_25 cs-height_lg_0"></div>
                     <div class="cs-iconbox cs-style1">
                         <div class="cs-iconbox_icon cs-center">
-                            <img src="https://business.paytm.com/s3assets/images/soundbox/slider4-pwe1891.webp?version=1702915646"
+                            <img src="/assets/img/sound1.png"
                                 alt="Icon" />
                         </div>
                         <div class="cs-iconbox_in">
@@ -235,7 +205,7 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="cs-iconbox cs-style1">
                         <div class="cs-iconbox_icon cs-center">
-                            <img src="https://business.paytm.com/s3assets/images/soundbox/slider6-pwe1891.webp?version=1702915646"
+                            <img src="/assets/img/soundbox2.png"
                                 alt="Icon" />
                         </div>
                         <div class="cs-iconbox_in">
@@ -253,7 +223,7 @@
                     <div class="cs-height_25 cs-height_lg_0"></div>
                     <div class="cs-iconbox cs-style1">
                         <div class="cs-iconbox_icon cs-center">
-                            <img src="https://business.paytm.com/s3assets/images/soundbox/slider7-pwe1891.webp?version=1702915646"
+                            <img src="assets/img/card2.png"
                                 alt="Icon" />
                         </div>
                         <div class="cs-iconbox_in">
@@ -270,7 +240,7 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="cs-iconbox cs-style1">
                         <div class="cs-iconbox_icon cs-center">
-                            <img src="https://business.paytm.com/s3assets/images/soundbox/slider1-pwe1891.webp?version=1702915646"
+                            <img src="assets/img/card2.png"
                                 alt="Icon" />
                         </div>
                         <div class="cs-iconbox_in">
@@ -287,7 +257,71 @@
             </div>
         </div>
     </section>
+
+
+
+
     <section id="about" class="cs-gradient_bg_1">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse-lg" style="display: flex">
+                <div class="col-xl-6">
+                    <div class="cs-height_0 cs-height_lg_40"></div>
+                    <div class="cs-seciton_heading cs-style1">
+                        <!-- <div class="cs-section_subtitle">About The POS</div> -->
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <h3 class="cs-section_title">
+                            Soundbox Card
+                            Enhanced battery life,
+                            more power to your business                        </h3>
+                    </div>
+                    
+                    <div class="cs-height_15 cs-height_lg_15"></div>
+                    <div class="cs-list_1_wrap">
+                        <ul class="cs-list cs-style1 cs-mp0">
+                            <li>
+                                <span class="cs-list_icon">
+                                    <img src="assets/img/icons/tick.svg" alt="Tick" />
+                                </span>
+                                <div class="cs-list_right">
+                                    <h3>Other point of sale information</h3>
+                                    <p>
+                                        But I must explain to you how all this mistaken in
+                                        denouncing pleasure and praising pain was born and I will
+                                        give.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="cs-list_icon">
+                                    <img src="assets/img/icons/tick.svg" alt="Tick" />
+                                </span>
+                                <div class="cs-list_right">
+                                    <h3>Best process system POS</h3>
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                                        qui blanditiis praesentium voluptatum deleniti at.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- <div class="cs-list_img wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <img src="assets/img/card2.png" alt="About" />
+                        </div> -->
+                    </div>
+                </div>
+                <div class="pos">
+                    <figure class="gprs_image">
+                        <img src="/assets/img/soundbox2.png" alt="sound box" />
+                    </figure>
+                </div>
+               
+            </div>
+        </div>
+        <div class="cs-height_100 cs-height_lg_70"></div>
+        <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <!-- <section id="about" class="cs-gradient_bg_1">
         <div class="container">
             <div class="row align-items-center flex-column-reverse-lg" style="display: flex">
                 <div class="pos">
@@ -351,7 +385,7 @@
         </div>
         <div class="cs-height_100 cs-height_lg_70"></div>
         <div class="cs-height_135 cs-height_lg_0"></div>
-    </section>
+    </section> -->
     <div class="container-fluid">
         <div class="cs-funfact_1_wrap cs-type1">
             <div class="cs-funfact cs-style1">
@@ -400,17 +434,20 @@
             </div>
         </div>
     </div>
+
+
+    
     <section class="cs-bg" data-src="assets/img/feature_bg.svg">
         <div class="cs-height_135 cs-height_lg_0"></div>
         <div id="feature">
             <div class="cs-height_95 cs-height_lg_70"></div>
             <div class="container">
                 <div class="cs-seciton_heading cs-style1 text-center">
-                    <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <!-- <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         POS Features
-                    </div>
+                    </div> -->
                     <div class="cs-height_10 cs-height_lg_10"></div>
-                    <h3 class="cs-section_title">Available features</h3>
+                    <h3 class="cs-section_title"> Justapay Sound box features</h3>
                 </div>
                 <div class="cs-height_50 cs-height_lg_40"></div>
                 <div class="row">
@@ -526,7 +563,7 @@
                 <div class="col-xl-6">
                     <div class="cs-left_full_width cs-space40">
                         <div class="cs-left_sided_img">
-                            <img src="assets/img/retail-store.png" alt="Retail Stores" />
+                            <img src="assets/img/group .png" alt="Retail Stores"  width="450px" style="display: flex; justify-content: center; margin: 0px auto;"/>
                         </div>
                     </div>
                 </div>
@@ -836,96 +873,8 @@
             <div class="cs-height_75 cs-height_lg_45"></div>
         </div>
     </section>
-    <section class="cs-gradient_bg_1">
-        <div class="cs-height_95 cs-height_lg_70"></div>
-        <div class="container">
-            <div class="cs-seciton_heading cs-style1 text-center">
-                <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                    Testimonials
-                </div>
-                <div class="cs-height_10 cs-height_lg_10"></div>
-                <h3 class="cs-section_title">What our client’s say</h3>
-            </div>
-            <div class="cs-height_50 cs-height_lg_40"></div>
-            <div class="cs-slider cs-style1 cs-gap-24">
-                <div class="custom-slider">
-                    <div class="slider-track">
-                        <!-- First Testimonial -->
-                        <div class="testimonial-slide">
-                            <!-- Existing testimonial content here -->
-                            <!-- ... -->
-                            <p>"With Thrive’s help, we were able to increase the functionality of our website
-                                dramatically while were able to increase the."</p>
-                            <div style="display: flex;">
-                                <img src="assets/img/avatar_1.png" alt="">
-
-                                <div>
-
-                                    <h4>Alice Johnson</h4>
-                                    <span>CEO, TechCorp</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Second Testimonial -->
-                        <div class="testimonial-slide">
-                            <p>"With Thrive’s help, we were able to increase the functionality of our website
-                                dramatically while were able to increase the."</p>
-                            <div style="display: flex;">
-                                <img src="" alt="ig">
-
-                                <div>
-
-                                    <h4>Alice Johnson</h4>
-                                    <span>CEO, TechCorp</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-slide">
-                            <!-- Existing testimonial content here -->
-                            <!-- ... -->
-                            <p>"With Thrive’s help, we were able to increase the functionality of our website
-                                dramatically while were able to increase the."</p>
-                            <div style="display: flex;">
-                                <img src="assets/img/avatar_3.png" alt="">
-
-                                <div>
-
-                                    <h4>Alice Johnson</h4>
-                                    <span>CEO, TechCorp</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimonial-slide">
-                            <!-- Existing testimonial content here -->
-                            <!-- ... -->
-                            <p>"With Thrive’s help, we were able to increase the functionality of our website
-                                dramatically while were able to increase the."</p>
-                            <div style="display: flex;">
-                                <img src="assets/img/avatar_1.png" alt="">
-
-                                <div>
-
-                                    <h4>Alice Johnson</h4>
-                                    <span>CEO, TechCorp</span>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- Add more testimonials here -->
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="cs-pagination cs-style1"></div>
-        </div>
-        </div>
-        <div class="cs-height_100 cs-height_lg_70"></div>
-    </section>
+    
+   
     <section class="cs-bg" data-src="assets/img/feature_bg.svg">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
@@ -1084,239 +1033,7 @@
         </div>
         <div class="cs-height_100 cs-height_lg_70"></div>
     </section>
-    <section class="cs-bg" data-src="assets/img/feature_bg.svg" id="news">
-        <div class="cs-height_95 cs-height_lg_70"></div>
-        <div class="container">
-            <div class="cs-seciton_heading cs-style1 text-center">
-                <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                    Letest News
-                </div>
-                <div class="cs-height_10 cs-height_lg_10"></div>
-                <h3 class="cs-section_title">Point of sale latest news</h3>
-            </div>
-            <div class="cs-height_50 cs-height_lg_40"></div>
-            <div class="cs-slider cs-style1 cs-gap-24">
-                <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-fade-slide="0"
-                    data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3"
-                    data-lg-slides="4" data-add-slides="4">
-                    <div class="cs-slider_wrapper">
-                        <div class="cs-slide">
-                            <div class="cs-post cs-style1">
-                                <div class="cs-post_thumb cs-modal_btn" data-modal="details">
-                                    <div class="cs-post_thumb_in cs-bg" data-src="assets/img/post_1.jpg"></div>
-                                </div>
-                                <div class="cs-post_info">
-                                    <ul class="cs-post_meta cs-mp0">
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z" />
-                                                </svg>
-                                            </span>
-                                            admin
-                                        </li>
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z" />
-                                                </svg>
-                                            </span>
-                                            12.09.2022
-                                        </li>
-                                    </ul>
-                                    <h2 class="cs-post_title cs-modal_btn" data-modal="details">
-                                        Point of sale software card usde
-                                    </h2>
-                                    <span class="cs-text_btn cs-modal_btn" data-modal="details">
-                                        <span>Read More</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                                            <path fill="currentColor"
-                                                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs-slide">
-                            <div class="cs-post cs-style1">
-                                <div class="cs-post_thumb cs-modal_btn" data-modal="details">
-                                    <div class="cs-post_thumb_in cs-bg" data-src="assets/img/post_2.jpg"></div>
-                                </div>
-                                <div class="cs-post_info">
-                                    <ul class="cs-post_meta cs-mp0">
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z" />
-                                                </svg>
-                                            </span>
-                                            admin
-                                        </li>
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z" />
-                                                </svg>
-                                            </span>
-                                            12.09.2022
-                                        </li>
-                                    </ul>
-                                    <h2 class="cs-post_title cs-modal_btn" data-modal="details">
-                                        Best super shop point of sale setup
-                                    </h2>
-                                    <span class="cs-text_btn cs-modal_btn" data-modal="details">
-                                        <span>Read More</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                                            <path fill="currentColor"
-                                                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs-slide">
-                            <div class="cs-post cs-style1">
-                                <div class="cs-post_thumb cs-modal_btn" data-modal="details">
-                                    <div class="cs-post_thumb_in cs-bg" data-src="assets/img/post_3.jpg"></div>
-                                </div>
-                                <div class="cs-post_info">
-                                    <ul class="cs-post_meta cs-mp0">
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z" />
-                                                </svg>
-                                            </span>
-                                            admin
-                                        </li>
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z" />
-                                                </svg>
-                                            </span>
-                                            12.09.2022
-                                        </li>
-                                    </ul>
-                                    <h2 class="cs-post_title cs-modal_btn" data-modal="details">
-                                        Computer new point of saie working good
-                                    </h2>
-                                    <span class="cs-text_btn cs-modal_btn" data-modal="details">
-                                        <span>Read More</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                                            <path fill="currentColor"
-                                                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs-slide">
-                            <div class="cs-post cs-style1">
-                                <div class="cs-post_thumb cs-modal_btn" data-modal="details">
-                                    <div class="cs-post_thumb_in cs-bg" data-src="assets/img/post_4.jpg"></div>
-                                </div>
-                                <div class="cs-post_info">
-                                    <ul class="cs-post_meta cs-mp0">
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z" />
-                                                </svg>
-                                            </span>
-                                            admin
-                                        </li>
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z" />
-                                                </svg>
-                                            </span>
-                                            12.09.2022
-                                        </li>
-                                    </ul>
-                                    <h2 class="cs-post_title cs-modal_btn" data-modal="details">
-                                        Connection pos to phone payment option
-                                    </h2>
-                                    <span class="cs-text_btn cs-modal_btn" data-modal="details">
-                                        <span>Read More</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                                            <path fill="currentColor"
-                                                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs-slide">
-                            <div class="cs-post cs-style1">
-                                <div class="cs-post_thumb cs-modal_btn" data-modal="details">
-                                    <div class="cs-post_thumb_in cs-bg" data-src="assets/img/post_2.jpg"></div>
-                                </div>
-                                <div class="cs-post_info">
-                                    <ul class="cs-post_meta cs-mp0">
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z" />
-                                                </svg>
-                                            </span>
-                                            admin
-                                        </li>
-                                        <li>
-                                            <span class="cs-medium">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512">
-                                                    <path fill="currentColor"
-                                                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z" />
-                                                </svg>
-                                            </span>
-                                            12.09.2022
-                                        </li>
-                                    </ul>
-                                    <h2 class="cs-post_title cs-modal_btn" data-modal="details">
-                                        Best super shop point of sale setup
-                                    </h2>
-                                    <span class="cs-text_btn cs-modal_btn" data-modal="details">
-                                        <span>Read More</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                                            <path fill="currentColor"
-                                                d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cs-pagination cs-style1"></div>
-            </div>
-        </div>
-        <div class="cs-height_100 cs-height_lg_70"></div>
-    </section>
+
     <section class="cs-gradient_bg_1" id="contact">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
@@ -1338,7 +1055,7 @@
                         simply dummy text of the printing and typesetting.
                     </p>
                     <div class="cs-height_15 cs-height_lg_15"></div>
-                    <div class="cs-iconbox cs-style3">
+                    <!-- <div class="cs-iconbox cs-style3">
                         <div class="cs-iconbox_icon">
                             <img src="assets/img/icons/contact_icon_1.svg" alt="Icon" />
                         </div>
@@ -1348,8 +1065,8 @@
                                 4117 Leroy LaneHarold, KY 41635,
                             </div>
                         </div>
-                    </div>
-                    <div class="cs-height_30 cs-height_lg_30"></div>
+                    </div> -->
+                    <!-- <div class="cs-height_30 cs-height_lg_30"></div>
                     <div class="cs-iconbox cs-style3">
                         <div class="cs-iconbox_icon">
                             <img src="assets/img/icons/contact_icon_2.svg" alt="Icon" />
@@ -1358,8 +1075,8 @@
                             <h2 class="cs-iconbox_title">Contract Number</h2>
                             <div class="cs-iconbox_subtitle">+606-243-4966</div>
                         </div>
-                    </div>
-                    <div class="cs-height_30 cs-height_lg_30"></div>
+                    </div> -->
+                    <!-- <div class="cs-height_30 cs-height_lg_30"></div>
                     <div class="cs-iconbox cs-style3">
                         <div class="cs-iconbox_icon">
                             <img src="assets/img/icons/contact_icon_3.svg" alt="Icon" />
@@ -1368,7 +1085,7 @@
                             <h2 class="cs-iconbox_title">Email Address</h2>
                             <div class="cs-iconbox_subtitle">demo@gmail.com</div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-xl-6 offset-xl-1">
                     <div class="cs-height_40 cs-height_lg_40"></div>
@@ -1418,17 +1135,17 @@
                                 dislike men who are so
                             </p>
                         </div>
-                        <div class="cs-height_30 cs-height_lg_30"></div>
+                        <!-- <div class="cs-height_30 cs-height_lg_30"></div>
                         <div class="cs-social_btns cs-style1">
                             <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
                             <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
                             <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="cs-footer_item widget_nav_menu">
-                        <h2 class="cs-widget_title">Available POS</h2>
+                        <h2 class="cs-widget_title">Available Sound Box</h2>
                         <ul class="menu">
                             <li><a href="#">Food Delivery</a></li>
                             <li><a href="#">Furniture Store</a></li>
@@ -1920,32 +1637,18 @@
             </div>
         </div>
     </div>
-    <!-- <script src="assets/js/plugins/jquery-3.6.0.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+
+
     <script src="assets/js/plugins/jquery.slick.min.js"></script>
     <script src="assets/js/plugins/jquery.counter.min.js"></script>
     <script src="assets/js/plugins/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/custom.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const sliderTrack = document.querySelector('.slider-track');
-            let currentIndex = 0;
 
-            // Example: Change slide every 3 seconds
-            setInterval(function () {
-                currentIndex += 1;
-                if (currentIndex >= sliderTrack.children.length / 2) {
-                    currentIndex = 0;
-                }
-                sliderTrack.style.transform = `translateX(-${100 * currentIndex}%)`;
-            }, 3000); // 3 seconds
-        });
-
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -1955,6 +1658,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
+
         $(".owl-carousel").owlCarousel({
             nav: false,
             dots: true,
@@ -1973,7 +1677,7 @@
             responsive: {
                 0: {
                     items: 1,
-                    nav: true,
+                    nav: false,
                 },
                 600: {
                     items: 3,
@@ -1981,12 +1685,15 @@
                 },
                 1000: {
                     items: 5,
-                    nav: true,
+                    nav: false,
                     loop: false,
                 },
             },
         });
+
     </script>
+
+
 </body>
 
 </html>
