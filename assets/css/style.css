@@ -3058,6 +3058,7 @@ li.menu-item-has-children
 .cs-footer {
   background-color:#F26B40;
   color: #FFFF;
+  position: relative;
 }
 
 .cs-footer .menu {
@@ -3910,6 +3911,8 @@ li.menu-item-has-children
     height: 80px;
     width: 80px;
   }
+
+  
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -3995,4 +3998,23 @@ li.menu-item-has-children
 
 .cs-main_header {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.footer-box {
+  position: relative;
+  top: 0px;
+  /* bottom: 60px; */
+  width: 80%;
+  background-color:#ffff;
+  margin: -75px auto;
+  /* margin: -75px 0px; */
+  border-radius: 10px;
+}
+
+.footer-info{
+  margin-top: 27px ;
+  padding-top: 60px;
+  background-color: #69CBE4;
+  
 }
