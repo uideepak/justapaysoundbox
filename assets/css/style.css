@@ -3996,3 +3996,75 @@ li.menu-item-has-children
 .cs-main_header {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+
+/* .payment-animation{
+ 
+   position: relative;
+  
+  
+}
+
+.sound-box-ani{
+position: relative;
+margin: auto;
+width: 40%;
+}
+
+.hand-ani{
+  position: absolute;
+  
+}
+
+.payment-card-ani{
+  position: absolute;
+  visibility: hidden;
+}
+ */
+
+ .payment-animation {
+position: relative;
+width: 70%;
+margin: auto;
+height: 500px;
+display: flex;
+justify-content: center;
+}
+
+.sound-box-ani{
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+.payment-card-ani {
+  position: absolute;
+  transform: scale(0); 
+  transition: transform 0.5s ease;
+  margin-right: 500px;
+  width: 200px;
+  height: 200px;
+}
+
+.hand-ani {
+  position: absolute;
+  transform: translateX(262%) translateY(297px);
+  /* transform: scale(0); */
+  visibility: hidden;
+  width: 400px;
+  
+  transition: transform 1s ease;
+}
+
+
+.payment-animation:hover .payment-card-ani, .payment-animation.in-view .payment-card-ani {
+  transform: scale(1); 
+}
+.payment-animation:hover .hand-ani,
+.payment-animation.in-view .hand-ani {
+  transform:translateX(202px)  translateY(176px);
+  /* transform: scale(1); */
+  visibility: visible;
+  
+}
+
